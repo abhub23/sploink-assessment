@@ -27,7 +27,7 @@ cd web && npm install
 ### 2. Start the Backend (port 8000)
 
 ```bash
-uvicorn api.main:app --host 0.0.0.0 --port 8000
+python run.py
 ```
 
 ### 3. Start the Frontend (port 3000)
